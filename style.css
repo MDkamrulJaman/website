@@ -1,29 +1,61 @@
-/* *{
+*{
 
-    margin: 0px;
+ 
+    box-sizing: border-box;
     
-}  */
+} 
 
 
 img{
     max-width: 100%;
+        width: 200px;
+    
 }
 
-.image{
-margin: 15px;
-width: 100%;
+
+.brand{
+
+    width: auto;
+    height: 70px;
+    background-color: #e0693d;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #e2cdcd;
+}
+
+.brand button {
+ 
+    margin-top: 15px;
+}
+.hero{
+background: url(./back.png);
+width: auto;
 height: 500px;
-
-background-image: url("./jaman.jpg");
+background-size: cover;
 background-repeat: no-repeat;
-background-color: antiquewhite;
-background-position: center;
-
-
-
+background-attachment: fixed;
 }
 
 
-h1{
-    color: aqua;
-}
+
+.hero_child{
+
+    background-color: rgba(225, 225, 225, 0.7);
+    width: 500px;   
+    height: 400px;   
+   
+    position: absolute;   
+    top: 40%;   
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+    .hero_content {
+text-align: center;
+padding: 5px;
+line-height: 30px;
+    }
